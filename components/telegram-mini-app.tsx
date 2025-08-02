@@ -23,7 +23,7 @@ export default function TelegramMiniApp() {
   const ActiveComponent = tabs.find((tab) => tab.id === activeTab)?.component || HomeTab
 
   return (
-    <div className="h-screen w-screen bg-gradient-to-br from-gray-900 via-green-900 to-gray-900 text-green-400 overflow-hidden">
+    <div className="min-h-screen w-screen bg-gradient-to-br from-gray-900 via-green-900 to-gray-900 text-green-400 overflow-hidden">
       <div className="w-full bg-gray-900/90 backdrop-blur-sm h-full flex flex-col">
         {/* Main Content - Full height minus bottom nav */}
         <div className="flex-1 overflow-y-auto">
